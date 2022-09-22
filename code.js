@@ -12,6 +12,7 @@ let data = [
   "Someone kisses",
   "Pheobe sings",
   "Rachel complains",
+  "Rachel is emotional",
   "Ross says he's fine",
   "Chandler is being sarcastic",
   "Episode with an animal",
@@ -19,7 +20,11 @@ let data = [
   "Joey fails in acting",
   "Ross mentions dinosaurs",
   "central perk",
-  "someone is pregnant",
+  "the boys' flat",
+  "the girls' flat",
+  "theme song",
+  "someone crys",
+  "fake laugh",
 ];
 
 const SEASONS = 10;
