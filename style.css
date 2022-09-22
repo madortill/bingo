@@ -44,7 +44,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   width: 95vw;
-  height: fit-content;
+  /* height: fit-content; */
   /* max-height: 70vh; */
   /* min-height: 50vh; */
   position: absolute;
