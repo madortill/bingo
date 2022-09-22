@@ -2,7 +2,12 @@
   font-family: GABRWFFR;
   src: url("./assets/GABRWFFR.TTF");
   font-weight: 500;
+}
 
+@font-face {
+  font-family: check;
+  src: url("./assets/MavenPro-Medium.ttf");
+  font-weight: 500;
 }
 
 :root {
@@ -40,6 +45,7 @@
   grid-template-rows: 1fr 1fr 1fr 1fr;
   width: 95vw;
   height: fit-content;
+  min-height: 50vh;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -51,8 +57,9 @@
   background-color: white;
   text-align: center;
   padding: 0.2em;
+  padding-top: 0.4em;
   margin: 0.1em;
-  font-family: cursive;
+  font-family: check;
 }
 
 .title {
@@ -63,7 +70,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 10vh;
+  top: 9vh;
 }
 
 .title img {
@@ -82,6 +89,44 @@
   text-align: center;
 }
 
+.darkScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.restartButton {
+  width: 17.5vw;
+  height: 10vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--realyDarkPurple);
+  border: 0.4em solid var(--lightPurple);
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+.restartButtonPic {
+  width: 11vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hidden {
+  display: none;
+}
+
+.titleWin {
+  top: 20vh;
+  font-size: 4em;
+}
 /* confetti */
 html,
 body {
