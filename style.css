@@ -45,7 +45,7 @@
   grid-template-rows: 1fr 1fr 1fr 1fr;
   width: 95vw;
   height: fit-content;
-  min-height: 50vh;
+  /* min-height: 50vh; */
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -60,6 +60,7 @@
   padding-top: 0.4em;
   margin: 0.1em;
   font-family: check;
+  min-height: 10vh;
 }
 
 .title {
